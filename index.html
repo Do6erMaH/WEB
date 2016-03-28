@@ -23,7 +23,7 @@
             <li><a class="nav-button" href="#service">SERVICES</a></li>
             <li><a class="nav-button" href="#portfolio">PORTFOLIO</a></li>
             <li><a class="nav-button" href="#about">ABOUT</a></li>
-            <li><a class="nav-button" href="#">CONTACT</a></li>
+            <li><a class="nav-button" href="#contact">CONTACT</a></li>
         </ul>
         </div>
     </div>
@@ -242,7 +242,16 @@
 
     </div>
 </div>
-
+<script>
+    $(document).ready(function() {
+        $("a").click(function() {
+            var elementClick = $(this).attr("href");
+            var destination = $(elementClick).offset().top;
+            $('html, body').animate({ scrollTop: destination}, 1100);
+            return false;
+        });
+    });
+</script>
 
 </body>
 </html>
