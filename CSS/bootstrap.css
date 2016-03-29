@@ -7036,6 +7036,9 @@ h5.titel{
   border-radius: 50%;
   margin-right: 10px;
 }
+.social a.black{
+    background-color: #222;
+}
 .social a.ic-tw {
   background-position:0 0 ;
 }
@@ -7048,21 +7051,33 @@ h5.titel{
 .social a.ic-gp {
   background-position:-120px 0 ;
 }
+.social a.ic-tw.black{
+    background-position:0 -40px ;
+}
 .social a.ic-tw:hover {
   border-color:#00aced ;
   background-color:#00aced ;
   background-position:0 -40px ;
 
 }
+.social a.ic-fb.black{
+    background-position:-40px -40px ;
+}
 .social a.ic-fb:hover {
   border-color:#3b5998 ;
   background-color:#3b5998 ;
   background-position: -40px -40px ;
 }
+.social a.ic-pn.black{
+    background-position:-80px -40px ;
+}
 .social a.ic-pn:hover {
   border-color:#cb2028 ;
   background-color:#cb2028 ;
   background-position:-80px -40px ;
+}
+.social a.ic-gp.black{
+    background-position:-120px -40px ;
 }
 .social a.ic-gp:hover {
   border-color:#d95232 ;
@@ -7122,4 +7137,19 @@ h5.titel{
 }
 #messeger textarea {
   height: 210px;
+}
+#contact .container button {
+  margin-right: 25px;
+}
+#footer {
+    padding: 25px 0;
+}
+#footer .social{
+    margin-top: 0;
+    margin-left: 360px;
+}
+#footer p{
+    margin-top: 10px;
+    color: #555555;
+    font: 14px/22px Arial, sans-serif;
 }
