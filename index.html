@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="CSS/bootstrap-theme.css">
     <script type="text/javascript" src="js/jquery-1.12.2.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
-       <title>New HMTL document by NewJect</title>
+    <script type="text/javascript" src="js/scrollT.js"></script>
+    <title>New HMTL document by NewJect</title>
 
 </head>
 <body>
@@ -266,6 +267,13 @@
             return false;
         });
     });
+
+</script>
+<script type="text/javascript">
+    (function($) {
+        $.lockfixed("#header",{offset: {top: 5, bottom: 10}});
+
+    })(jQuery);
 </script>
 
 </body>
